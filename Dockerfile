@@ -1,4 +1,4 @@
-FROM golang:1.19.2
+FROM golang:1.20.0-alpine
 
 WORKDIR /app
 ADD ./hello-world /app/hello-world
