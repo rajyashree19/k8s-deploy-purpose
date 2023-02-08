@@ -1,4 +1,4 @@
-FROM 936741862101.dkr.ecr.us-west-2.amazonaws.com/alpine-baseimage:golang
+FROM golang:1.19.2
 
 WORKDIR /app
 ADD ./hello-world /app/hello-world
